@@ -1,5 +1,5 @@
-name: TV Card
-description: 📺 TV Remote Card
+name: TV Card Phoenix
+description: 📺 TV Remote Card Phoenix
 type: lovelace
 keywords:
   - tvcard
@@ -7,7 +7,7 @@ keywords:
   - tv
   - television
 author:
-  name: mar_robHD
+  name: mar_robHD & Misaka
 license: Apache License, Version 2.0
 files:
   - tv-card-phoenix-tv.js

@@ -1,9 +1,9 @@
 {
   "tv-card": {
     "updated_at": "2019-06-16",
-    "version": "0.0.9",
-    "remote_location": "https://github.com/marrobHD/tv-card/releases/download/v0.0.9/tv-card.js",
-    "visit_repo": "https://github.com/marrobHD/tv-card/",
-    "changelog": "https://github.com/marrobHD/tv-card/releases/latest"
+    "version": "0.0.1",
+    "remote_location": "https://github.com/MisakaSpace/tv-card-phoenix-tv/releases/download/v0.0.9/tv-card.js",
+    "visit_repo": "https://github.com/MisakaSpace/tv-card-phoenix-tv",
+    "changelog": "https://github.com/MisakaSpace/tv-card-phoenix-tv/releases/latest"
   }
 }
