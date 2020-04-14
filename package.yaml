@@ -10,5 +10,5 @@ author:
   name: mar_robHD
 license: Apache License, Version 2.0
 files:
-  - tv-card.js
-  - tv-card-editor.js
+  - tv-card-phoenix-tv.js
+  - tv-card-phoenix-tv-editor.js

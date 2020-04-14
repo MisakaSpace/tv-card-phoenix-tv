@@ -13,7 +13,7 @@ class TVCardServices extends LitElement {
   }
 
 //  static async getConfigElement() {
-//    await import("./tv-card-editor.js");
+//    await import("./tv-card-phoenix-tv-editor.js");
 //    return document.createElement("tv-card-editor");
 //  }
 
@@ -53,59 +53,26 @@ class TVCardServices extends LitElement {
           ></paper-icon-button>
           
           <paper-icon-button
-            .action="${"source_tv"}"
-            @click="${this.handleActionClick}"
-            icon="mdi:television-classic"
-            title="TV"
-          ></paper-icon-button>
-          
-          <paper-icon-button
-            .action="${"source_smart"}"
-            @click="${this.handleActionClick}"
-            icon="mdi:television-guide"
-            title="Smart"
-          ></paper-icon-button>
-        </div>
-
-        <div class="row">
-          <paper-icon-button
             .action="${"volume_down"}"
             @click="${this.handleActionClick}"
             icon="mdi:volume-medium"
             title="Volume -"
           ></paper-icon-button>
+          
           <paper-icon-button
             .action="${"volume_up"}"
             @click="${this.handleActionClick}"
             icon="mdi:volume-high"
             title="Volume +"
           ></paper-icon-button>
-          <paper-icon-button
-            .action="${"mute"}"
-            @click="${this.handleActionClick}"
-            icon="mdi:volume-mute"
-            title="Mute"
-          ></paper-icon-button>
         </div>
-        
+
         <div class="row">
           <paper-icon-button
-            .action="${"screen_size"}"
+            .action="${"c3"}"
             @click="${this.handleActionClick}"
-            icon="mdi:resize"
-            title="Size"
-          ></paper-icon-button>
-          <paper-icon-button
-            .action="${""}"
-            @click="${this.handleActionClick}"
-            icon=""
-            title=""
-          ></paper-icon-button>
-          <paper-icon-button
-            .action="${"screen_brightness"}"
-            @click="${this.handleActionClick}"
-            icon="mdi:brightness-6"
-            title="Brightness"
+            icon="mdi:numeric-3"
+            title="3"
           ></paper-icon-button>
         </div>
       </div>
@@ -158,13 +125,9 @@ class TVCardServices extends LitElement {
   handleActionClick(e) {
     const custom_services = [
       "power",
-      "source_tv",
-      "source_smart",
       "volume_up",
       "volume_down",
-      "mute",
-      "screen_size",
-      "screen_brightness",
+      "c3"
     ];
 
     if (
@@ -231,4 +194,4 @@ class TVCardServices extends LitElement {
   }
 }
 
-customElements.define("tv-card", TVCardServices);
+customElements.define("tv-card-phoenix-tv", TVCardServices);

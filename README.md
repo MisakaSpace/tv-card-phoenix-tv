@@ -75,13 +75,13 @@ https://github.com/marrobHD/tv-card
 
 ### Step 1
 
-Install `tv-card` by copying `tv-card.js` and `tv-card-editor.js` from this repo to `<config directory>/www/tv-card.js` on your Home Assistant instance.
+Install `tv-card` by copying `tv-card.js` and `tv-card-phoenix-tv-editor.js` from this repo to `<config directory>/www/tv-card.js` on your Home Assistant instance.
 
 **Example:**
 
 ```bash
 wget https://raw.githubusercontent.com/marrobHD/tv-card/master/tv-card.js
-wget https://raw.githubusercontent.com/marrobHD/tv-card/master/tv-card-editor.js
+wget https://raw.githubusercontent.com/marrobHD/tv-card/master/tv-card-phoenix-tv-editor.js
 mv tv-card* /config/www/
 ```
 
@@ -91,7 +91,7 @@ Link `tv-card` inside your `ui-lovelace.yaml`.
 
 ```yaml
 resources:
-  - url: /local/tv-card.js?v=1
+  - url: /local/tv-card-phoenix-tv.js?v=1
     type: module
 ```
 
