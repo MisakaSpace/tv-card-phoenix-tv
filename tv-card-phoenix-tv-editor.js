@@ -187,4 +187,4 @@ export class TvCardPhoenixTvEditor extends LitElement {
   }
 }
 
-customElements.define("tv-card-editor", TvCardPhoenixTvEditor);
+customElements.define("tv-card-phoenix-tv-editor", TvCardPhoenixTvEditor);
